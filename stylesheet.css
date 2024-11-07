@@ -1,0 +1,113 @@
+* {
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background-color: rgb(144, 169, 255);
+}
+
+.logo { 
+    border-bottom: 0.4em;
+    width: 100vw;
+}
+
+main {
+    height: fit-content;
+    margin-bottom: 10%;
+}
+
+/* Voor het onderstaande gedeelte heb ik chatgpt 
+geraadpleegd, ik heb het niet letterlijk overgenomen 
+maar gevraagd naar manieren om een onzichtbare button
+te plaatsen */
+
+.container {
+    position: relative;
+    display: inline-block;
+}
+
+.button {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.wat-te-doen {
+    top: 40%; 
+    left: 10%; 
+    width: 40%; 
+    height: 15%; 
+}
+
+.duurzaamheid {
+    top: 27%; 
+    right: 5%; 
+    width: 40%; 
+    height: 15%; 
+}
+
+.data-locatie {
+    top: 55%; 
+    right: 5%; 
+    width: 40%; 
+    height: 15%; 
+}
+
+/* tot hier */
+
+h1 {
+    font-family: "DynaPuff", system-ui;
+    display: flex;
+    justify-content: center;
+    color: wheat;
+    font-size: 4em;
+    border-radius: 2em;
+    padding-top: 1%;
+    margin: 5%;
+    font-weight: bolder;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 4px;
+    }
+
+h2 {
+    font-family: "DynaPuff", system-ui;
+    display: flex;
+    color: rgb(206, 102, 73);
+    font-size: 3.5em;
+    padding-top: 1%;
+    margin: 5%;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+}    
+
+p {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+}
+
+footer {
+    font-weight:bold;
+    font-size: 30px;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer nav ul li {
+    list-style: none;
+}
+
+a {
+    font-family: "DynaPuff", system-ui;
+    color: black;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
